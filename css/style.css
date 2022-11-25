@@ -1,10 +1,8 @@
 .img-container-profile{width: 60px ;aspect-ratio: 1/1; overflow: hidden;border-radius: 50%};
 
-#sfondo {
-    background: rgb(0,150,128);
-    background: linear-gradient(180deg, rgba(0,150,128,1) 0%, rgba(0,150,128,1) 22%, rgba(226,220,210,1) 22%, rgba(209,219,219,1) 100%);
-
-
+.sfondo {
+    width: 100vw;
+    height: 100vh;
 }
 .contacts-container{
     border-top: 2px solid rgba(239, 239, 239, 0.616)  ;
@@ -17,8 +15,8 @@
 } 
 .bell{border-radius: 50%; padding: 3px ;color: #8edafc;background-color: whitesmoke;aspect-ratio: 1/1;} ;
 
-.top-part-app-color{
-    background-color:#9e1c1c;
+.color-top{
+    background:#eaeaea;
 }
 .top-icon{
     color: #b1b1b1;
@@ -36,4 +34,8 @@ background-color:white;
 .my-chat{
     background-color:#d5f9ba;
 
+}
+
+.colore-sfondo{
+    background: linear-gradient(180deg, rgba(0,150,128,1) 0%, rgba(0,150,128,1) 22%, rgba(226,220,210,1) 22%, rgba(209,219,219,1) 100%);
 }
