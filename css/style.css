@@ -15,9 +15,6 @@
 } 
 .bell{border-radius: 50%; padding: 3px ;color: #8edafc;background-color: whitesmoke;aspect-ratio: 1/1;} ;
 
-.color-top{
-    background:#eaeaea;
-}
 .top-icon{
     color: #b1b1b1;
 }
@@ -28,14 +25,17 @@
     background-color: #f3eeea;
 }
 .contact-chat{
-background-color:white;
-
+    background-color:white;
+    
 }
 .my-chat{
     background-color:#d5f9ba;
-
+    
 }
 
 .colore-sfondo{
     background: linear-gradient(180deg, rgba(0,150,128,1) 0%, rgba(0,150,128,1) 22%, rgba(226,220,210,1) 22%, rgba(209,219,219,1) 100%);
+}
+.color-top{
+    background:#eaeaea;
 }
