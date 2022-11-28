@@ -19,6 +19,14 @@ createApp({
   },
   methods:{
     pushNewMessage(){
+      this.usersList[this.selectedUserIndex].messages.push({
+        date: '10/01/2020 16:15:22',
+        message: this.newMessage,
+        status: 'sent'
+      })
+      this.newMessage = ""
+s
+
 
     },
    
