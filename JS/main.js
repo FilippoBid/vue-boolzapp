@@ -1,19 +1,29 @@
-import usersListmported from "./usersList";
 const { createApp } = Vue;
 
+import usersList from './usersList.js';
 
 createApp({
   
   data () {
     
     return {
-      usersList : usersListmported
+    
+      usersList,
+      selectedUserIndex:0,
+      newMessage: '',
 
+       
+      
       
     };
   },
   methods:{
-    
-  }
-}).mount("#app")
+    pushNewMessage(){
+
+    },
+   
+  },
+}).mount("#app");
+
+
 
